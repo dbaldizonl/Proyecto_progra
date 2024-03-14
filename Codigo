@@ -1,0 +1,39 @@
+data = []
+
+def insert_data():
+    # Insertar datos en la estructura
+    pass
+
+def display_data():
+    # Mostrar los datos almacenados
+    pass
+
+def update_data():
+    # Actualizar datos existentes
+    pass
+
+def delete_data():
+    # Eliminar datos existentes
+    pass
+
+while True:
+    print("\n1. Insertar datos")
+    print("2. Consultar datos")
+    print("3. Modificar datos")
+    print("4. Borrar datos")
+    print("5. Salir")
+
+    option = input("Seleccione una opción: ")
+
+    if option == "1":
+        insert_data()
+    elif option == "2":
+        display_data()
+    elif option == "3":
+        update_data()
+    elif option == "4":
+        delete_data()
+    elif option == "5":
+        break
+    else:
+        print("Opción inválida. Por favor, seleccione nuevamente.")
