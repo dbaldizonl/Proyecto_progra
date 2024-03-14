@@ -1,39 +1,40 @@
-data = []
+# Estructura de datos para almacenar la información de la lechería
+lecheria = []
 
-def insert_data():
-    # Insertar datos en la estructura
-    pass
+def incluir():
+    print("Opción para incluir datos seleccionada")
+    # Implementar la lógica para añadir datos a la lechería
 
-def display_data():
-    # Mostrar los datos almacenados
-    pass
+def consultar():
+    print("Opción para consultar datos seleccionada")
+    # Implementar la lógica para consultar datos de la lechería
 
-def update_data():
-    # Actualizar datos existentes
-    pass
+def modificar():
+    print("Opción para modificar datos seleccionada")
+    # Implementar la lógica para modificar datos en la lechería
 
-def delete_data():
-    # Eliminar datos existentes
-    pass
+def borrar():
+    print("Opción para borrar datos seleccionada")
+    # Implementar la lógica para borrar datos de la lechería
 
 while True:
-    print("\n1. Insertar datos")
-    print("2. Consultar datos")
-    print("3. Modificar datos")
-    print("4. Borrar datos")
+    print("\n1. Incluir")
+    print("2. Consultar")
+    print("3. Modificar")
+    print("4. Borrar")
     print("5. Salir")
 
-    option = input("Seleccione una opción: ")
+    opcion = input("Seleccione una opción: ")
 
-    if option == "1":
-        insert_data()
-    elif option == "2":
-        display_data()
-    elif option == "3":
-        update_data()
-    elif option == "4":
-        delete_data()
-    elif option == "5":
+    if opcion == "1":
+        incluir()
+    elif opcion == "2":
+        consultar()
+    elif opcion == "3":
+        modificar()
+    elif opcion == "4":
+        borrar()
+    elif opcion == "5":
         break
     else:
         print("Opción inválida. Por favor, seleccione nuevamente.")
